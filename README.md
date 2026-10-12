@@ -1,6 +1,5 @@
 # vtex-price-stock-sync
 
-[![CI](https://github.com/ivan1-git/vtex-price-stock-sync/actions/workflows/ci.yml/badge.svg)](https://github.com/ivan1-git/vtex-price-stock-sync/actions/workflows/ci.yml)
 ![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776ab)
 ![Sin dependencias](https://img.shields.io/badge/dependencias-0-brightgreen)
 
@@ -143,7 +142,8 @@ python -m pytest
 
 30 pruebas con pytest. Las del cliente HTTP levantan un servidor local que se hace pasar por
 VTEX, para probar de verdad los reintentos con 429 y 503, los 404 de SKUs que no existen y
-que los headers de autenticación se manden. En GitHub Actions corren con Python 3.10, 3.12 y 3.13.
+que los headers de autenticación se manden. El workflow de GitHub Actions
+([`ci.yml`](.github/workflows/ci.yml)) las corre con Python 3.10, 3.12 y 3.13.
 
 ## Lo que le agregaría
 
