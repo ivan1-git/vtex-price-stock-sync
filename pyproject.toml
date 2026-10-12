@@ -1,0 +1,23 @@
+[project]
+name = "vtex-price-stock-sync"
+version = "0.1.0"
+description = "Sincroniza precios e inventario de un ERP (CSV) hacia VTEX, con simulación y reporte"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Iván Uriel Jiménez Granados", email = "uriel130granados@gmail.com" }]
+requires-python = ">=3.10"
+# Sin dependencias: solo librería estándar
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+price-stock-sync = "price_stock_sync.__main__:main"
+
+[tool.setuptools]
+packages = ["price_stock_sync"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
