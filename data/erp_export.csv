@@ -1,0 +1,13 @@
+sku_ref,descripcion,precio,precio_lista,existencias,almacen
+TEN-001,Tenis urbanos blancos 26.5,1299.00,1599.00,14,1
+TEN-001,Tenis urbanos blancos 26.5,1299.00,1599.00,3,2
+TEN-002,Tenis urbanos negros 27,"1,349.00","1,599.00",8,1
+CHA-010,Chamarra impermeable M,"1,849.00","2,199.00",7,1
+PLA-020,Playera básica blanca M,99.00,,40,1
+PLA-021,Playera básica negra M,349.00,299.00,25,1
+CAL-030,Calcetas deportivas 3 pares,129.00,149.00,-3,1
+SUD-060,Sudadera con capucha G,899.00,999.00,12,1
+GOR-040,Gorra bordada,299.00,,10,1
+MOC-050,Mochila 25 L,abc,899.00,5,1
+,Producto sin código,199.00,,2,1
+,,,,,

@@ -1,0 +1,10 @@
+{
+  "TEN-001": { "skuId": "1203", "basePrice": 1299.0, "listPrice": 1599.0, "stock": { "1": 20, "2": 3 } },
+  "TEN-002": { "skuId": "1204", "basePrice": 1199.0, "listPrice": 1599.0, "stock": { "1": 8 } },
+  "CHA-010": { "skuId": "3301", "basePrice": 1849.0, "listPrice": 1999.0, "stock": { "1": 2 } },
+  "PLA-020": { "skuId": "877", "basePrice": 349.0, "listPrice": 349.0, "stock": { "1": 40 } },
+  "PLA-021": { "skuId": "878", "basePrice": 349.0, "listPrice": 349.0, "stock": { "1": 25 } },
+  "CAL-030": { "skuId": "512", "basePrice": 129.0, "listPrice": 149.0, "stock": { "1": 6 } },
+  "SUD-060": { "skuId": "6010", "basePrice": 899.0, "listPrice": 999.0, "stock": { "1": 12 } },
+  "MOC-050": { "skuId": "5050", "basePrice": 899.0, "listPrice": 899.0, "stock": { "1": 4 } }
+}
